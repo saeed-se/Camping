@@ -1,0 +1,254 @@
+@media screen and (max-width:400px) {
+    .footer__wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+}
+@media screen and (min-width:576px) {
+    .container {
+        width: 540px;
+    }
+    .sign-box {
+        width: 24rem;
+    }
+    .destination__box {
+        width: 24rem;
+        padding: 2.5rem 2rem;
+    }
+    .destination__box--banner {
+        width: 20rem;
+    }
+    .footer__content-right {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+}
+@media screen and (min-width:768px) {
+    .container {
+        width: 720px;
+    }
+    .menu__links {
+        display: flex;
+    }
+    .mobile-menu {
+        display: none;
+    }
+    .sign-boxes {
+        flex-wrap: wrap;
+    }
+    .sign-box {
+        width: 32rem;
+        flex-shrink: 0;
+    }
+    .sign-box__title {
+        font-size: 1.4rem;
+    }
+    .sign-box__caption {
+        font-size: 1.2rem;
+    }
+    .destination__box {
+        width: 32rem;
+        padding: 2.5rem 3rem;
+    }
+    .destination__box--banner {
+        width: 26rem;
+    }
+    .newsletter {
+        max-width: 66.5rem;
+        height: 22rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: row-reverse;
+       padding-top: 2.5rem;
+       padding-bottom: 1.5rem;
+    }
+    .newsletter__content {
+        flex-basis: 45%;
+    }
+    .newsletter__content--title {
+        max-width: 20rem;
+        margin: 0;
+        font-size: 2rem;
+    }
+    .newsletter__content--caption {
+        max-width: 30rem;
+        text-align: left;
+        font-size: 0.9rem;
+    }
+    .newsletter__send-box {
+        padding: 0.4rem 1rem;
+    }
+}
+@media screen and (min-width:992px) {
+    .container {
+        width: 960px;
+    }
+    .nav__links {
+        display: flex;
+        align-items: center;
+    }
+    .header-content___title {
+        font-size: 4rem;
+        line-height: 4rem;
+    }
+     .header-content__caption {
+        max-width: 39rem;
+        font-size: 1.2rem;
+    }
+    .sign-box {
+        width: 22rem;
+        padding: 3rem 1.5rem;
+        height: 18rem;
+    }
+    .sign-box__caption {
+        font-size: 1rem;
+    }
+    .destination__box {
+        width: 29.5rem;
+    }
+    .destination__box--banner {
+        width: 23.5rem;
+    }
+    .newsletter {
+        max-width: 91.5rem;
+        height: 25rem;
+       padding-top: 4rem;
+       padding-bottom: 1rem;
+    }
+    .newsletter__pic {
+        flex-basis: 40%;
+    }
+    .newsletter__content {
+        margin-top: -2rem;
+    }
+    .newsletter__content--title {
+        max-width: 23rem;
+        margin: 0;
+        font-size: 2.3rem;
+    }
+    .newsletter__content--caption {
+        max-width: 33rem;
+        text-align: left;
+        font-size: 1rem;
+    }
+    .footer__content-left {
+        max-width: 38rem;
+    }
+    .footer__wrapper {
+        display: flex;
+    }
+    .footer__up {
+        left: auto;
+        right: 0.8rem;
+    }
+    .destination::before,.destination::after {
+        display: block;
+    }
+}
+
+@media screen and (min-width:1200px) {
+    .container {
+        width: 1140px;
+    }
+    .sign-box {
+        width: 25rem;
+        height: 18rem;
+        padding-top: 3rem;
+    }
+    .sign-box__title {
+        font-size: 1.4rem;
+    }
+    .sign-box__caption {
+        font-size: 1.2rem;
+    }
+    .destination__box {
+        width: 25rem;
+        padding: 2.5rem 2rem;
+    }
+    .destination__box--banner {
+        width: 21rem;
+    }
+    .newsletter {
+        max-width: 108.5rem;
+        height: 25rem;
+       padding-top: 4rem;
+       padding-bottom: 1rem;
+    }
+    .newsletter__content {
+        flex-basis: 45%;
+    }
+    .newsletter__pic img {
+        height: 22rem;
+    }
+    .newsletter__content--title {
+        max-width: 23rem;
+        margin: 0;
+        font-size: 2.3rem;
+    }
+    .newsletter__content--caption {
+        max-width: 40rem;
+        text-align: left;
+        font-size: 1.2rem;
+    }
+    .footer__up {
+        right: 1.2rem;
+    }
+    .footer__wrapper {
+        justify-content: space-between;
+    }
+}
+@media screen and (min-width:1400px) {
+    .container {
+        width: 1370px;
+    }
+    .sign-box {
+        width: 31rem;
+        height: 22rem;
+        padding: 5rem 1.5rem;
+    }
+    .sign-box__svg{
+        width: 5rem;
+        height: 5rem;
+    }
+    .sign-box__caption {
+        font-size: 1.2rem;
+    }
+    .sign-box__title {
+        font-size: 1.6rem;
+    }
+    .destination__box {
+        width: 31rem;
+        padding: 2.5rem 3rem;
+    }
+    .destination__box--banner {
+        width: 25rem;
+    }
+    .newsletter {
+        max-width: 131.5rem;
+        height: 31rem;
+        padding: 4rem 6rem 1rem 6rem;
+    }
+    .newsletter__pic {
+        flex-basis: 40%;
+    }
+    .newsletter__pic img {
+        height: 28rem;
+    }
+    .newsletter__content--title {
+        max-width: 33rem;
+        margin: -1.5rem 0 1rem 0;
+        font-size: 3.3rem;
+    }
+    .newsletter__content--caption {
+        max-width: 50rem;
+        text-align: left;
+        font-size: 1.5rem;
+    }
+    .newsletter__send-box {
+        padding: 0.8rem 1rem;
+    }
+}
